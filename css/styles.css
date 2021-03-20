@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    font-family: Arial;
+}
+#telefono{
+    background-image: url(/img/manos.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*display: flex;*/
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    /*width: 50%;*/
+    font-size: 18px;
+}
+.title{
+    width: 100%;
+    color: white;
+    text-align: center;
+    text-justify:auto;
+    font-family: Arial;
+    font-weight: 100;
+}
+#white-bg{
+    padding-top: 15px;
+    color: black;
+}
+.about{
+    margin-top: 2%;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+}
+section{
+    text-align: center;
+}
+.elems{
+    width: 25%;
+    margin: 2%;
+    text-align: center;
+}
+.elems img{
+    width: 20%;
+}
+.elems h3{
+    margin: 10px 0;
+}
+.elems p{
+    font-weight: 300;
+    text-align: center;
+}
+.services{
+    max-width: 10000px;
+    max-height: 10000px;
+    background-color: aqua;
+}
+.serivicios{
+    width: 1000px;
+    height: 1000px;
+}
